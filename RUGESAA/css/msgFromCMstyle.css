@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+   background-color: cornflowerblue;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.left_logo{
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.left_logo img{
+   height: 50px;
+}
+.right_logo{
+   margin-top: 10px;
+   margin-right: 20px;
+}
+.right_logo img{
+   height: 50px;
+}
+.header_content{
+   background-color: black;
+}
+.header_content ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+.header_content ul li{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.header_content ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+.dropdown-menu a:hover{
+   color: white;
+}
+.middle1_sec{
+    padding-top: 10px;
+ }
+ .middle{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+ .first{
+   margin-left: 15px;
+ }
+ .first h1{
+   text-transform: capitalize;
+   
+ }
+ .first p{
+   text-transform: capitalize;
+ }
+ .first button{
+    text-transform: capitalize;
+    color: white;
+ }
+ .second{
+   margin-right: 15px;
+ }
+ .second_img{
+   height: 230px;
+ } 
+ .second_img img{
+    height: 100%;
+ }
+footer{
+    background-color: black;
+    padding-top: 15px;
+ }
+ .about_us{
+ 
+ }
+ .about_us h2{
+   color: white;
+   text-transform: capitalize;
+ }
+ .about_us p{
+   color: white;
+ }
+ .about_us button{
+ 
+ }
+ .navigation{
+ 
+ }
+ .navigation h2{
+    color: white;
+    text-transform: capitalize;
+ }
+ .navigation ul{
+    color: white;
+ }
+ .navigation ul li{
+ 
+ }
+ .navigation ul li a{
+    color: white;
+    text-transform: capitalize;
+ }
+ .contact_us{
+ 
+ }
+ .contact_us h2{
+    color: white;
+    text-transform: capitalize;
+ }
+ .contact_us ul{
+    list-style: none;
+ }
+ .contact_content{
+   display: flex;
+ }
+ .contact_content i{
+    color: white;
+ }
+ .contact_content h5{
+    color: white;
+ }
+ .copyright{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+ }
+ .copyright span{
+   
+ }
+ .copyright a{
+ 
+ } 
